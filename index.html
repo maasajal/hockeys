@@ -43,7 +43,74 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto lg:px-12">
+      <!-- Navbar -->
+      <nav class="py-10">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-xl"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a class="text-main-color hover:text-main-color font-bold"
+                    >Home</a
+                  >
+                </li>
+                <li><a class="hover:text-main-color font-bold">About</a></li>
+                <li><a class="hover:text-main-color font-bold">Pages</a></li>
+                <li><a class="hover:text-main-color font-bold">Blog</a></li>
+                <li><a class="hover:text-main-color font-bold">Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">
+              <h3 class="font-extrabold text-4xl capitalize">
+                Hockey<span class="text-main-color">'</span>s
+              </h3>
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a class="text-main-color hover:text-main-color font-bold"
+                  >Home</a
+                >
+              </li>
+              <li><a class="hover:text-main-color font-bold">About</a></li>
+              <li><a class="hover:text-main-color font-bold">Pages</a></li>
+              <li><a class="hover:text-main-color font-bold">Blog</a></li>
+              <li><a class="hover:text-main-color font-bold">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-6">
+            <i
+              class="fa-solid fa-magnifying-glass text-xl text-[#89898B] hidden md:flex lg:flex"
+            ></i>
+            <a
+              class="btn text-white text-xl bg-main-color font-bold hover:text-main-color border-0 px-6 capitalize"
+              >Get ticket
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
   </body>
