@@ -35,6 +35,7 @@
               "phone-bg": "rgba(188, 237, 109, 0.10)",
               "email-bg": "rgba(253, 221, 95, 0.10)",
               "map-bg": "rgba(98, 156, 243, 0.10)",
+              "footer-p": "rgba(255, 255, 255, 0.60)",
             },
           },
         },
@@ -750,6 +751,55 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-black mt-24 py-8 md:py-16 lg:py-24">
+      <div
+        class="container mx-auto px-12 text-footer-p grid grid-cols-5 gap-10 items-center text-center md:text-start lg:text-start"
+      >
+        <aside class="col-span-5 lg:col-span-2">
+          <h3 class="text-3xl font-extrabold text-white">Get In Touch</h3>
+          <p class="max-w-md mt-5 leading-6 py-6 mx-auto md:mx-0">
+            Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat
+            dolor. Purus urna in sit nullam proin.
+          </p>
+          <div class="flex gap-4 justify-center md:justify-start items-center">
+            <i class="fa-regular fa-envelope text-main-color"></i>
+            <p>hockeys@support.com</p>
+          </div>
+          <div
+            class="flex gap-4 justify-center md:justify-start items-center my-4"
+          >
+            <i class="fa-solid fa-phone text-main-color"></i>
+            <p>(+62) 123-321-543</p>
+          </div>
+        </aside>
+        <div
+          class="col-span-5 lg:col-span-3 flex flex-wrap justify-center md:justify-between lg:justify-between gap-16"
+        >
+          <nav class="flex flex-col gap-3">
+            <h4 class="text-lg font-bold text-white mb-5">Company</h4>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </nav>
+          <nav class="flex flex-col gap-3">
+            <h4 class="text-lg font-bold text-white mb-5">Support</h4>
+            <a class="link link-hover">Help Center </a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav>
+          <nav class="flex flex-col gap-3">
+            <h4 class="text-lg font-bold text-white mb-5">Services</h4>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
